@@ -1,0 +1,118 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"tinyXml/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 74,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 105,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 115,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 125,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "tinyxml2_development",
+			"destination" : "lib64",
+			"paths" : 
+			[
+				"tinyXml/libtinyxml2.a"
+			],
+			"targetId" : "tinyxml2::@8ff5969e5e0a41bde57c",
+			"targetIndex" : 29,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "tinyxml2_development",
+			"destination" : "lib64/cmake/tinyxml2",
+			"exportName" : "tinyxml2-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "tinyxml2::@8ff5969e5e0a41bde57c",
+					"index" : 29
+				}
+			],
+			"paths" : 
+			[
+				"tinyXml/CMakeFiles/Export/b22fc8d8db2702d542b15f76ebe2d748/tinyxml2-static-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "tinyxml2_development",
+			"destination" : "lib64/cmake/tinyxml2",
+			"paths" : 
+			[
+				"tinyXml/cmake/tinyxml2-config.cmake",
+				"cmake-build-debug/tinyXml/tinyxml2-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "tinyxml2_development",
+			"destination" : "include",
+			"paths" : 
+			[
+				"tinyXml/tinyxml2.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "tinyxml2_development",
+			"destination" : "lib64/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/tinyXml/tinyxml2.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "tinyXml",
+		"source" : "tinyXml"
+	}
+}
