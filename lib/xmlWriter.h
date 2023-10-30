@@ -4,7 +4,7 @@
 
 #ifndef XMLREPO_XMLWRITER_H
 #define XMLREPO_XMLWRITER_H
-
+#include <iostream>
 #include "IRNodes/AstNode.hpp"
 #include "../tinyXml/tinyxml2.h"
 

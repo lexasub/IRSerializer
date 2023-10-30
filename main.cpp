@@ -1,9 +1,9 @@
-#include <iostream>
 #include <memory>
-#include "lib/IRNodes/IdNode.hpp"
-#include "lib/IRNodes/FunctionNode.hpp"
 #include "lib/xmlWriter.h"
 #include "lib/xmlReader.h"
+
+#include "lib/IRNodes/IdNode.hpp"
+#include "lib/IRNodes/FunctionNode.hpp"
 #include "lib/IRNodes/IntNode.hpp"
 #include "lib/IRNodes/PtrNode.hpp"
 #include "lib/IRNodes/ArrNode.hpp"
@@ -12,6 +12,7 @@
 
 using std::unique_ptr;
 using std::make_unique;
+
 int main() {
     unique_ptr<AstNode> global = make_unique<IdNode>("global");
 
@@ -22,8 +23,8 @@ int main() {
 
     unique_ptr<AstNode> body0 = make_unique<IdNode>("body0");
     unique_ptr<AstNode> body1 = make_unique<IdNode>("body1");
-    unique_ptr<AstNode> func0 = make_unique<FunctionNode>("func0","args0");
-    unique_ptr<AstNode> func1 = make_unique<FunctionNode>("func1","args1");
+    unique_ptr<AstNode> func0 = make_unique<FunctionNode>("func0", "args0");
+    unique_ptr<AstNode> func1 = make_unique<FunctionNode>("func1", "args1");
 
 
     unique_ptr<AstNode> intNode = make_unique<IntNode>(25);

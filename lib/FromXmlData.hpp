@@ -11,6 +11,8 @@
 #include "IRNodes/ObjNode.hpp"
 #include "IRNodes/PtrNode.hpp"
 #include "IRNodes/RefNode.hpp"
+#include "IRNodes/FunctionNode.hpp"
+#include "IRNodes/IdNode.hpp"
 
 std::unique_ptr<AstNode> FromXmlData(const XMLElement *pElement) {
     const char *name = pElement->Name();

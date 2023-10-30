@@ -10,6 +10,7 @@
 #include <vector>
 #include "AstNode.hpp"
 #include "PairNode.hpp"
+#include "IdNode.hpp"
 
 class FunctionNode : public AstNode {
 public:
